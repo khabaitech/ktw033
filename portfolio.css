@@ -1,0 +1,190 @@
+body{background:white;
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Unbounded', cursive;
+    }
+
+		nav{float:right;}
+
+		a{padding-right: 10px;
+      color: black;
+      text-decoration:none;
+    }
+    .fa:hover{
+      scale:1.5;
+      color: red;
+      background: black;
+      border-radius: 50%;
+    }
+    img:hover{
+      scale:1.02;
+    }
+
+{
+  border-radius:50px 0px 50px 0px;
+  margin-bottom:10px;
+}
+
+		.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: }
+
+
+.main-container{
+    position: relative;
+    width: 90%;
+}
+
+.static-container{
+    display: inline-block;
+    margin: 20px;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 900;
+    width: 180px;
+   
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: 300%;
+   
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+    animation: color 3s infinite alternate ease-in;
+}
+
+
+.moving-text-container{
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    backface-visibility: hidden;
+   
+    font-size: 25px;
+    color: darkblue;
+   
+    position: absolute;
+    top: 35px;
+   
+    overflow: hidden;
+}
+
+.moving-text-container > p{
+    padding: 0;
+    margin: 5px;
+}
+
+.moving-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    position: absolute;
+    animation: upDown 7s infinite;
+}
+
+@keyframes upDown{
+   
+    0% {
+       top: 5px;
+    }
+   
+    10%{
+        top: 5px;
+    }
+   
+    20%{
+        top: -50px;
+    }
+   
+    30%{
+        top: -50px;
+    }
+   
+    40%{
+        top: -105px;
+    }
+   
+    50%{
+        top: -105px;
+    }
+   
+     60%{
+        top: -160px;
+    }
+   
+    70%{
+        top: -160px;
+    }
+   
+    80%{
+        top: 30px;
+    }
+   
+    85% {
+        top: 5px;
+    }
+   
+    100% {
+        top: 5px;
+    }
+   
+}
+
+@keyframes color{
+   
+    0% {
+        background-position: left;
+    }
+   
+    100% {
+        background-position: right;
+    }
+}
+/*=====ABOUT=====*/
+
+.about{}
